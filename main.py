@@ -51,7 +51,7 @@ def B_search(lst:list, Search:int):
     except Exception as e:
         return e
 
-# trying both B_short and B_search
+# trying both B_sort and B_search
 if __name__ == "__main__":
     l = [3,4,6,79,9,65,2,85,12,54,36]
     B_short(l)
